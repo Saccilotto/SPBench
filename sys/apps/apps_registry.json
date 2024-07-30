@@ -26,5 +26,19 @@
         "num_operators": "6",
         "description": "Content similarity application.",
         "notes": "Benchmark from PARSEC"
+    },
+    "fraud_detection": {
+        "name": "Fraud Detection",
+        "type": "SPBench",
+        "num_operators": "3",
+        "description": "Transaction fraud detection application.",
+        "notes": "Adapted from DSPBench (https://github.com/GMAP/DSPBench)"
+    },
+    "yahoo": {
+        "name": "Yahoo-Streaming",
+        "type": "User-defined application",
+        "num_operators": 5,
+        "description": "An application from Streaming Benchmarks that generates ads associated to a campaign",
+        "notes": "Filter: filters a preset event type and let the other types pass throught it. Join: Checks if remaining ads are from the current campaign and ads information to the joined_event struct. Aggregate: Passes the information received to the actual result struct, couting the ads that reached end."
     }
 }

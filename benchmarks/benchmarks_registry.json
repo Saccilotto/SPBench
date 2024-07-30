@@ -108,5 +108,18 @@
         "openmp": {
             "person_omp_farm": "single"
         }
+    },
+    "fraud_detection": {
+        "sequential": {
+            "fraud_sequential": "single"
+        },
+        "windflow": {
+            "fraud_wf_filter": "single"
+        }
+    },
+    "yahoo": {
+        "sequential": {
+            "yahoo_sequential": "single"
+        }
     }
 }
