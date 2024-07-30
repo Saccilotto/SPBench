@@ -116,5 +116,10 @@
         "windflow": {
             "fraud_wf_filter": "single"
         }
+    },
+    "yahoo": {
+        "sequential": {
+            "yahoo_sequential": "single"
+        }
     }
 }
